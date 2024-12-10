@@ -1,0 +1,125 @@
+/* Opšti stilovi */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea; /* Svetla pozadina */
+}
+
+header {
+    background-color: #4CAF50; /* Zelenija pozadina */
+    color: #fff; /* Bele boje za tekst */
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Senka ispod header-a */
+}
+
+header h1 {
+    margin: 0; /* Uklanjanje margine za h1 */
+    font-size: 2.5em; /* Veći font za naslov */
+}
+
+nav ul {
+    list-style-type: none; /* Uklanjanje bullet point-a */
+    padding: 0; /* Uklanjanje padding-a */
+}
+
+nav ul li {
+    display: inline; /* Horizontalno prikazivanje stavki u navigaciji */
+    margin: 0 15px; /* Razmak između stavki */
+}
+
+nav ul li a {
+    color: #fff; /* Bele boje za linkove */
+    text-decoration: none; /* Uklanjanje podvlačenja */
+    transition: color 0.3s; /* Glatka promena boje */
+}
+
+nav ul li a:hover {
+    color: #ffeb3b; /* Promena boje pri hover-u */
+}
+
+main {
+    padding: 20px; /* Padding oko glavnog sadržaja */
+}
+
+/* Stilovi za galeriju */
+.gallery-grid {
+    display: flex; /* Flexbox za raspoređivanje slika */
+    justify-content: center; /* Centriranje slika */
+    gap: 20px; /* Razmak između slika */
+    margin-top: 20px; /* Razmak iznad galerije */
+}
+
+.gallery-grid img {
+    width: 500px; /* Širina slika */
+    height: auto; /* Automatska visina */
+    border-radius: 10px; /* Zaobljeni uglovi */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Senka ispod slika */
+    transition: transform 0.3s; /* Glatka promena pri hover-u */
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05); /* Blago povećanje pri hover-u */
+}
+
+/* Stilovi za footer */
+footer {
+    background-color: #333; /* Tamna pozadina za footer */
+    color: #fff; /* Bele boje za tekst */
+    text-align: center; /* Centriranje teksta */
+    padding: 20px 0; /* Veći padding za footer */
+    margin-top: 20px; /* Razmak iznad footera */
+}
+
+footer a {
+    color: #ffeb3b; /* Svetla boja za linkove u footer-u */
+    text-decoration: none; /* Uklanjanje podvlačenja */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Podvlačenje pri hover-u */
+}
+
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+ul, ol {
+    margin: 20px;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+

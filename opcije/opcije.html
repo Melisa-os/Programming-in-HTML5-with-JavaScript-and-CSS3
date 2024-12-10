@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Combo Box Događaj</title>
+    <script>
+        
+        function prikaziVrednost() {
+            
+            const odabranaVrednost = document.forma.comboBox.value;
+            
+            
+            const divElement = document.getElementById('prikazVrednosti');
+            divElement.innerHTML = `Odabrana vrednost je: ${odabranaVrednost}`;
+        }
+    </script>
+</head>
+<body>
+   
+    <form name="forma">
+        <label for="comboBox">Izaberite vrednost:</label>
+        <select name="comboBox" id="comboBox" onchange="prikaziVrednost()">
+            <option value="Opcija 1">Opcija 1</option>
+            <option value="Opcija 2">Opcija 2</option>
+            <option value="Opcija 3">Opcija 3</option>
+            <option value="Opcija 4">Opcija 4</option>
+        </select>
+    </form>
+
+    
+    <div id="prikazVrednosti"></div>
+
+</body>
+</html>
